@@ -3,6 +3,10 @@
 	box-sizing: border-box;
 }
 
+.hidden {
+	display: none;
+}
+
 // Layout elements
 body {
 	background-image: url('./img/background.svg');
@@ -55,8 +59,9 @@ footer {
 .quote {
 	color: $orange;
 	border-bottom: 1px solid;
-	line-height: $line;
+	line-height: 1.5em;
 	font-weight: 500;
+	font-size: $lg;
 }
 .quote-container {
 	margin-bottom: 40px;
@@ -76,6 +81,20 @@ footer {
 .third:nth-of-type(2) {
 	width: 36%;
 	padding: 0 2%;
+}
+
+.fifth {
+	text-align: center;
+	display: inline-block;
+	width: 18%;
+	padding: 0 1%;
+	line-height: $line;
+}
+.author {
+	text-align: right;
+	font-size: $lg;
+	font-weight: 500;
+	margin-bottom: 40px;
 }
 
 // Text elements
@@ -109,4 +128,7 @@ p {
 b {
 	font-weight: 800;
 	color: $orange;
+}
+i {
+	font-style: italic;
 }

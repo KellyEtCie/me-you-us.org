@@ -43,8 +43,20 @@ A focus on fostering fulfilling environments, where people achieve greater conne
 learning principles</h2>
 </div>
 
-<p>
-SEL Without Borders is dedicated to bringing the insights and techniques of Social and Emotional Learning (SEL) to key sectors of our society – our schools, healthcare systems, and workplace. <br/><br/>
-
-fundamental human values or “secular ethics” within the well-known framework of SEL (Social and Emotional Learning) within schools, families and corporation. What we have learned from our experience we have now formalized by creating a new curriculum called CS3 Program –Core Skills in Three Domains: “me,” “you, and “us.” The aim here is to teach children healthy and compassionate relationships with themselves, with the other child in front of them, and with the community. Using both the theoretical and practical frameworks of our curriculum we will explain how we correlate the five components of SEL – self-awareness, self-regulation, social awareness, relationship skills, and responsible decision making – with the three domains. We have expanded the SEL framework so that this could facilitate the explicit teaching of compassion, interconnectedness, cooperative learning, and ethics. At the core of our practical framework is the acquisition of a “literacy of feelings and needs” that involve teaching 1) emotional awareness, 2) emotional literacy, and 3) being able to connect emotions with needs that are universal to all humans. We will briefly explain how we teach three aspects each with specific poster. We will conclude with few remarks on what we found to be crucially important on the part of the school community if any SEL type program is to have a chance to succeed and endure.
-</p>
+<section class="row">
+<div class="fifth">
+<h4>Self-<br/>awareness</h4>
+</div>
+<div class="fifth">
+<h4>Self-<br/>management</h4>
+</div>
+<div class="fifth">
+<h4>Social<br/>awareness</h4>
+</div>
+<div class="fifth">
+<h4>Relationship<br/> skills</h4>
+</div>
+<div class="fifth">
+<h4>Responsible<br/>Decision-making</h4>
+</div>
+</section>
