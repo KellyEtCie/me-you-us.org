@@ -1,0 +1,8 @@
+$orange : rgb(236, 111, 25);
+$red: rgb(230, 30, 37);
+
+@mixin gradient($direction) {
+	background: linear-gradient($direction, $orange, $red);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
