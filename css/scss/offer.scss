@@ -1,0 +1,38 @@
+body.offer {
+
+#container > ul {
+	margin-bottom: 80px;
+}
+
+.list-offer {
+	// text-align: center;
+
+	li {
+		// display: inline-block;
+		// margin: 0 20px;
+		// border-bottom: 2px solid $orange;
+		font-size: $md;
+		line-height: $line;
+	}
+}
+
+.list-workshop {
+	li {
+		font-size: $md;
+		line-height: $line;
+		list-style-type: disc;
+	}
+	ul {
+		margin-left: 40px;
+	}
+}
+
+.list-products {
+	@extend .list-workshop;
+}
+
+h3 {
+	margin-bottom: 40px;
+}
+
+}

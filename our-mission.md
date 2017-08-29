@@ -17,6 +17,10 @@ Engaged Citizenship and Embracing Shared Common Humanity
 </span>
 </div> -->
 
+<div class="box">
+<h2>Our mission</h2>
+</div>
+
 <p>
 SEL Without Borders is dedicated to bringing the insights and techniques of Social and Emotional Learning (SEL) to key sectors of our society – our schools, healthcare systems, and workplace.<br/><br/>
 
