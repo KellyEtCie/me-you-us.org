@@ -1,5 +1,73 @@
+//// GENERAL STYLES
+* {
+	box-sizing: border-box;
+}
+
+// Layout elements
 body {
 	background-image: url('./img/background.svg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	font-family: 'Mukta Mahee', sans-serif;
+}
+
+#outer {
+	text-align: center;
+}
+
+#container {
+	display: inline-block;
+	width: 100%;
+	max-width: 960px;
+
+	border-top: 1px solid $orange;
+	padding: 80px 0;
+	text-align: left;
+}
+
+footer {
+	@include gradient(to right);
+	height: 24px;
+	width: 100%;
+	// position: fixed;
+	// bottom: 0;
+	// left: 0;
+}
+
+.box {
+	position: relative;
+	display: inline-block;
+	color: $orange;
+	font-size: $xl;
+	padding-bottom: 40px;
+	margin: 40px 0;
+
+	&::after {
+		position: absolute;
+		right: 0;
+		top: 100%;
+		width: 100px;
+		height: 5px;
+		background-color: $orange;
+		content: ' ';
+	}
+}
+.subtitle {
+	color: $orange;
+	text-decoration: underline;
+}
+
+// Text elements
+a {
+	text-decoration: none;
+	color: black;
+	&:hover, &:focus, &.selected {
+		color: $red;
+		border-bottom: 1px solid;
+	}
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 800;
 }

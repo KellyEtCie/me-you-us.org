@@ -1,0 +1,29 @@
+header {
+	height: 200px;
+	padding: 50px;
+	ul {
+		padding-top: 30px;
+		display: inline-block;
+		height: 100px;
+	}
+	li {
+		display: inline-block;
+		line-height: 30px;
+		margin: 0 20px;
+
+		a {
+			display: inline-block;
+			font-size: $sm;
+		}
+		a.language {
+			
+		}
+	}
+
+	img {
+		float: right;
+		vertical-align: middle;
+		height: 72px;
+		width: auto;
+	}
+}

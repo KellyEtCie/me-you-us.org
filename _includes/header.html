@@ -3,5 +3,13 @@
 	{% for menu in site.tr[page.lang] %}
 		<li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
 	{% endfor %}
+		<li>
+		  {% for item in site.pages %}
+				{% if item.ref=="home" and item.lang!=page.lang %}
+					<a class="language" href="{{ item.url | prepend: site.baseurl }}">{{ item.lang }}</a>
+				{% endif %}
+			{% endfor %}
+		</li>
 </ul>
+<img src="./img/logo.svg"/>
 </header>

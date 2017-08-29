@@ -2,13 +2,15 @@
 <html>
   {% include head.html %}
 
-<body>
+<body class={{ page.selected }}>
 
   {% include header.html %}
 
-  <div class="container">
-    {{ content }}
-  </div>
+	<div id="outer">
+	  <div id="container">
+	    {{ content }}
+	  </div>
+	</div>
 
   {% include footer.html %}
 </body>

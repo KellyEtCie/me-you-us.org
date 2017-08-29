@@ -1,4 +1,4 @@
-$orange : rgb(236, 111, 25);
+$orange: rgb(236, 111, 25);
 $red: rgb(230, 30, 37);
 
 @mixin gradient($direction) {
@@ -6,3 +6,8 @@ $red: rgb(230, 30, 37);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+
+$sm: 14px;
+$md: 18px;
+$lg: 24px;
+$xl: 32px;
