@@ -20,7 +20,10 @@ ref: offer
 <li>Develop effective communication skills and empathic listening</li>
 </ul>
 
-<h3>Workshops offered</h3>
+<div class="box">
+<h3>Workshops</h3>
+</div>
+
 <ul class="list-workshop">
 <li>CS3 Teacher Training</li>
 <li>CS3 Parent Coaching</li>
@@ -32,13 +35,16 @@ ref: offer
 <li>Turning Workplace Conflict into Win Win situations! </li>
 <li>Teaching SEL and Team Work at School OR How to Teach Cooperation and SEL at School</li>
 <li>Stress Management: How can we better connect with ourselves and better manage our stress (Adults)</li>
-<li>Anxiety in children and adolescence: Tips, Tools & Explanations
-<ul><li>Anxiety is a common occurrence with children today.  When left untreated, anxiety is one of the strongest predictors of depression later in adult life. Childhood fears and worries are normal, but excessive worrying and the cycle of behaviors that follow, adversely influence a child’s learning, social development, and family life. WHAT a child worries about, however, is less important than HOW children and parents deal with it and as a result risk getting trapped in the process of anxiety. Come and join us and learn some tips and tools of HOW to deal with Anxiety.</li></ul>
+<li class="sublist"><button class="showhide-button"></button>Anxiety in children and adolescence: Tips, Tools & Explanations
+<div class="showhide">Anxiety is a common occurrence with children today.  When left untreated, anxiety is one of the strongest predictors of depression later in adult life. Childhood fears and worries are normal, but excessive worrying and the cycle of behaviors that follow, adversely influence a child’s learning, social development, and family life. WHAT a child worries about, however, is less important than HOW children and parents deal with it and as a result risk getting trapped in the process of anxiety. Come and join us and learn some tips and tools of HOW to deal with Anxiety.</div>
 </li>
 <li>Meditation Skills for Teachers, Students and the Workplace</li>
+<li><a href="#">Contact us</a></li>
 </ul>
 
-<h3>Products/material:</h3>
+<div class="box">
+<h3>Products/material</h3>
+</div>
 <ul class="list-products">
 <li>CS3: k-8 school curriculum to teach social emotional learning (for sale on line soon)</li>
 <li>Feelings and Needs Posters (available for download now)</li>

@@ -1,7 +1,7 @@
 <header>
 <ul>
 	{% for menu in site.tr[page.lang] %}
-		<li id="{{ menu[0] }}"><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+		<li id="{{ menu[0] }}"><a href="{{ menu[1].url | prepend: site.baseurl }}">{{ menu[1].name }}</a></li>
 	{% endfor %}
 		<!-- <li>
 		  {% for item in site.pages %}
