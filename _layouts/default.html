@@ -6,6 +6,12 @@
 
   {% include header.html %}
 
+  {% if page.img != null %}
+  <div id="splash-photo">
+    <img src="{{ page.img }}">;
+  </div>
+  {% endif %}
+  
 	<div id="outer">
 	  <div id="container">
 	    {{ content }}

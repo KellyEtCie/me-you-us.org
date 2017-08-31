@@ -35,7 +35,7 @@ ref: offer
 <li>Turning Workplace Conflict into Win Win situations! </li>
 <li>Teaching SEL and Team Work at School OR How to Teach Cooperation and SEL at School</li>
 <li>Stress Management: How can we better connect with ourselves and better manage our stress (Adults)</li>
-<li class="sublist"><button class="showhide-button"></button>Anxiety in children and adolescence: Tips, Tools & Explanations
+<li class="sublist"><button class="showhide-button"></button><span class="sublist-header">Anxiety in children and adolescence: Tips, Tools & Explanations</span>
 <div class="showhide">Anxiety is a common occurrence with children today.  When left untreated, anxiety is one of the strongest predictors of depression later in adult life. Childhood fears and worries are normal, but excessive worrying and the cycle of behaviors that follow, adversely influence a child’s learning, social development, and family life. WHAT a child worries about, however, is less important than HOW children and parents deal with it and as a result risk getting trapped in the process of anxiety. Come and join us and learn some tips and tools of HOW to deal with Anxiety.</div>
 </li>
 <li>Meditation Skills for Teachers, Students and the Workplace</li>

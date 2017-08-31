@@ -33,68 +33,7 @@ body.offer {
 		font-size: $md;
 		line-height: $line;
 		list-style-type: disc;
-		list-style-position: inside;
-	}
-
-	li.sublist {
-		list-style-type: none;
-		list-style-position: inside;
-		position: relative;
-		padding-left: 25px;
-		// border-left: 1px solid transparent;
-		// transition: border 1s;
-		transition: color 1s;
-
-		&.clicked {
-			// border-left: 1px solid $orange;
-			// transition: border 1s;
-			color: $orange;
-		}
-
-		.showhide-button {
-			position: absolute;
-			top: 1.2em;
-			left: 5px;
-			border: 0;
-			background: none;
-			margin-left: -5px;
-			display: inline-block;
-
-			border: solid transparent;
-			content: " ";
-			height: 0px;
-			width: 0px;
-			position: absolute;
-			border-color: transparent;
-			border-left-color: $orange;
-			border-width: 5px;
-			margin-top: -5px;
-
-			&.clicked {
-				transform: rotate(90deg);
-			}
-		}
-
-		.showhide {
-			max-height: 0;
-			overflow: hidden;
-			opacity: 0;
-			transition: all 1s;
-			color: black;
-		}
-		.showhide.revealed {
-			color: black;
-			max-height: 500px;
-			opacity: 1;
-			// transition: max-height 1s, opacity .8s;
-			border-left: 1px solid $orange;
-			padding-left: 25px;
-			margin-left: -50px;
-			padding-top: 50px;
-			margin-top: -30px;
-			margin-bottom: 25px;
-		}
-
+		list-style-position: outside;
 	}
 
 	ul {

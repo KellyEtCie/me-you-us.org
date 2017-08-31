@@ -1,0 +1,16 @@
+body.about {
+	background: none;
+
+	#outer {
+		text-align: center;
+		background-image: url('./img/background.svg');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+	}
+
+	#advisors {
+		color: $orange;
+		font-weight: 500;
+		font-size: $md;
+	}
+}
