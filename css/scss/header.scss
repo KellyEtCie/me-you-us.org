@@ -20,11 +20,16 @@ header {
 		}
 	}
 
-	img {
-		float: right;
-		vertical-align: middle;
+	.logo {
 		height: 72px;
 		width: auto;
+	}
+	.logo.desktop {
+		float: right;
+		vertical-align: middle;
 		margin-right: 80px;
+	}
+	.logo.mobile {
+		display: none;
 	}
 }

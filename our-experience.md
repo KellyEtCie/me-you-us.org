@@ -6,7 +6,7 @@ img: ./img/group.png
 ---
 
 <div class="box">
-<h2>SEL Consultations/trainings given</h2>
+<h2>SEL Consultations / trainings given</h2>
 </div>
 
 <br/>

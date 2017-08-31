@@ -1,0 +1,93 @@
+@media all and (max-width: 1196px) {
+
+body {
+	background: none;
+}
+
+#outer {
+	text-align: center;
+	background-image: url('./img/background.svg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+header {
+	height: auto;
+	margin-bottom: 20px;
+	text-align: center;
+
+	ul {
+		height: auto;
+		display: block;
+	}
+	li {
+		display: block;
+	}
+	.logo.desktop {
+		display: none;
+	}
+	.logo.mobile {
+		display: inline-block;
+	}
+}
+
+ul {
+	margin-left: 10px;
+}
+
+#container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.half {
+	padding: 0 !important;
+
+	ul {
+		margin: 0;
+	}
+}
+
+}
+
+
+@media all and (max-width: 900px) {
+
+
+	p {
+		column-count: 1;
+	}
+
+
+	.quote {
+		font-size: $md;
+	}
+	.author {
+		font-size: $md;
+	}
+
+	.fifth, .quarter, .half, .third {
+		display: block;
+		width: 100% !important;
+	}
+
+	.fifth {
+		margin-bottom: 40px;
+	}
+
+	.list-offer li {
+		display: block;
+		width: 100% !important;
+		margin: 40px 0 !important;
+	}
+
+	body.experience .school li.sublist .showhide {
+		column-count: 1;
+	}
+	body.experience .school li.sublist .showhide.revealed {
+		max-height: 5000px;
+	}
+	body.experience .school .box {
+		display: block;
+	}
+}

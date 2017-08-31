@@ -13,6 +13,7 @@ body {
 	background-image: url('./img/background.svg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	overflow-x: hidden;
 }
 
 #outer {
@@ -167,7 +168,8 @@ li.sublist {
 		}
 	}
 	.sublist-header {
-		position: absolute;
+		position: relative;
+		margin-left: 5px;
 		left: 0;
 	}
 
