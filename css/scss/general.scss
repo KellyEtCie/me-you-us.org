@@ -141,7 +141,6 @@ li.sublist {
 			left: 50%;
 			margin-left: -8px;
 			position: absolute;
-			pointer-events: none;
 			border-color: none;
 			border-top-color: $orange;
 			border-width: 8px;
@@ -156,12 +155,19 @@ li.sublist {
 			left: 50%;
 			margin-left: -8px;
 			position: absolute;
-			pointer-events: none;
 			border-color: none;
 			border-bottom-color: $orange;
 			border-width: 8px;
 			margin-top: -12px;
 			// margin-top: -5px;
+		}
+
+		&:hover::before {
+			border-top-color: $red;
+		}
+		&.clicked:hover::before {
+			border-top-color: transparent;
+			border-bottom-color: $red;
 		}
 	}
 

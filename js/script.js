@@ -7,4 +7,13 @@ $(document).ready(function() {
 		$(this).parent().find('.showhide').toggleClass('revealed');
 		$(this).parent('.sublist').toggleClass('clicked');
 	});
+
+	$('a.anchor-link').on('click tap', function(event) {
+		event.preventDefault();
+
+		$('html, body').animate({
+			scrollTop: $( $.attr(this, 'href') ).offset().top
+		}, 500);
+	});
+	
 });
