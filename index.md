@@ -18,10 +18,11 @@ Engaged Citizenship and Embracing Shared Common Humanity
 </div>
 
 <p>
-
-The Institute of Social and Emotional Education (ISEE) team has over a decade of experience teaching Social Emotional Learning (SEL) as well as essential skills such as emotional literacy, self-kindness, attention training, mindfulness, effective communication and conflict resolution. Our objective is to help develop healthy relationship skills and help the development of engaged citizens.
+The Institute of Social and Emotional Education (ISEE) team has over a decade of experience teaching Social Emotional Learning (SEL) as well as essential skills such as emotional literacy, self-kindness, attention training, mindfulness, effective communication and conflict resolution.
 <br/><br/>
-We do this by cultivating compassion and connectedness through targeted application of SEL principles in the three domains of  <b>ME</b>, <b>YOU</b>, and <b>US</b>.
+Our objective is to help develop healthy relationship skills and help the development of engaged citizens.
+<br/>
+We do this by cultivating compassion and connectedness through targeted application of SEL principles in the three domains of <b>ME</b>, <b>YOU</b>, and <b>US</b>.
 </p>
 
 <section class="row">

@@ -111,10 +111,7 @@ footer {
 }
 
 li.sublist {
-	list-style-type: none !important;
-	list-style-position: inside;
 	position: relative;
-	padding-left: 25px;
 	transition: color 1s;
 	overflow: visible;
 
@@ -126,8 +123,8 @@ li.sublist {
 		position: relative;
 		border: 0;
 		background: none;
+		margin-left: 8px;
 		margin-top: -4px;
-		margin-left: -48px;
 		display: inline-block;
 		vertical-align: middle;
 
@@ -142,13 +139,13 @@ li.sublist {
 			height: 0;
 			width: 0;
 			left: 50%;
-			margin-left: -4px;
+			margin-left: -8px;
 			position: absolute;
 			pointer-events: none;
 			border-color: none;
-			border-left-color: $orange;
+			border-top-color: $orange;
 			border-width: 8px;
-			margin-top: -8px;
+			margin-top: -4px;
 		}
 
 		&.clicked::before {
@@ -161,16 +158,11 @@ li.sublist {
 			position: absolute;
 			pointer-events: none;
 			border-color: none;
-			border-top-color: $orange;
+			border-bottom-color: $orange;
 			border-width: 8px;
-			margin-top: -4px;
+			margin-top: -12px;
 			// margin-top: -5px;
 		}
-	}
-	.sublist-header {
-		position: relative;
-		margin-left: 5px;
-		left: 0;
 	}
 
 	.showhide {
@@ -186,8 +178,8 @@ li.sublist {
 		opacity: 1;
 		// transition: max-height 1s, opacity .8s;
 		border-left: 1px solid $orange;
-		padding-left: 35px;
-		margin-left: -60px;
+		padding-left: 20px;
+		margin-left: -35px;
 		padding-top: 50px;
 		margin-top: -30px;
 		margin-bottom: 25px;
@@ -197,7 +189,7 @@ li.sublist {
 
 #splash-photo {
 	width: 100%;
-	max-height: 600px;
+	max-height: 740px;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center top;

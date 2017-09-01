@@ -45,4 +45,12 @@ body.offer {
 	@extend .list-workshop;
 }
 
+#click-to-view {
+	text-align: center;
+
+	div a {
+		// color: $orange;
+	}
+}
+
 }

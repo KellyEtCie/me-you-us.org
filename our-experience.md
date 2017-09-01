@@ -53,7 +53,7 @@ img: ./img/group.png
 <li>English Montreal School Board: Kinder-Garden project 2016</li>
 <li>FEEP: Federation des établissment des école privé</li>
 <li>District Insitute of Educational Training (DIET), Ladakh, India</li>
-<li class="sublist"><button class="showhide-button"></button><span class="sublist-header">Les Grandes Rencontres</span>
+<li class="sublist"><span class="sublist-header">Les Grandes Rencontres ...</span><button class="showhide-button"></button>
 <div class="showhide">
 This project, created in conjunction with the Ministère de l’Éducation, de l’Enseignement supérieur et de la Recherche, the Peace Grantmakers Network and the Fondation Jasmin Roy, brings together a variety of stakeholders – from educational partners to research organizations like the Institute of Social and Emotional Education and PREVNet – in an effort to create a positive and caring school climate. These organizations and their partners are devoted to the struggle against violence and bullying, and together provide school system stakeholders with training. The Grandes rencontres are training Quebec teachers, principals and school stakeholders by holding a 2-day round of meetings over 3 years throughout the 17 regions of Quebec. The training days began in the 2015-2016 school year to be completed in spring 2018. ISEE in partnership with the ministry of education of Quebec (MEES), created the content on Social Emotional Learning that is currently being delivered.
 
@@ -87,7 +87,8 @@ This project, created in conjunction with the Ministère de l’Éducation, de l
 
 <div class="quote-container">
 <span class="quote sublist">
-I had the immense privilege as the director of École Buissonnière, a unique primary school with a cultural and artistic vocation, to live a real revolution with my staff and students!</span>&nbsp;&nbsp;<button class="showhide-button"></button>
+I had the immense privilege as the director of École Buissonnière, a unique primary school with a cultural and artistic vocation, to live a real revolution with my staff and students! ...</span>&nbsp;&nbsp;
+<button class="showhide-button"></button>
 
 <br/><br/>
 <div class="showhide">

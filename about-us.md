@@ -43,3 +43,8 @@ We are 100% aligned with HHDL vision of education:
 </div>
 
 </section>
+
+<div class="box">
+<h2>Contact us</h2>
+</div>
+<a href="#">email@me-you-us.org</a>
