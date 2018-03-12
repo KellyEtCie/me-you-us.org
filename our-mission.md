@@ -22,14 +22,24 @@ Engaged Citizenship and Embracing Shared Common Humanity
 </div>
 
 <p>
-ISEE is dedicated to bringing the insights and techniques of Social and Emotional Learning (SEL) to key sectors of our society – our schools, healthcare systems, and workplace.
-<br/><br/>
-What we have learned from our experience we have now formalized by creating a new curriculum called CS3 Program –Core Skills in Three Domains: <b>ME</b>, <b>YOU</b>, and <b>US</b>. The aim here is to teach children healthy and compassionate relationships with themselves, with the other child in front of them, and with the community. Using both the theoretical and practical frameworks of our curriculum we will explain how we correlate the five components of SEL – self-awareness, self-regulation, social awareness, relationship skills, and responsible decision-making – with the three domains. We have expanded the SEL framework so that this could facilitate the explicit teaching of compassion, interconnectedness, cooperative learning, and ethics. At the core of our practical framework is the acquisition of a “literacy of feelings and needs” that involve teaching 1) emotional awareness, 2) emotional literacy, and 3) being able to connect emotions with needs that are universal to all humans. We will briefly explain how we teach three aspects each with specific poster. We will conclude with few remarks on what we found to be crucially important on the part of the school community if any SEL type program is to have a chance to succeed and endure.
+ISEE is dedicated to bringing the insights and techniques of Social and Emotional Learning (SEL) to key sectors of our society - our schools, families, communities and the workplace in order to foster healthy relationships.  We use the well researched and validated SEL framework - self-awareness, self-management, social awareness, relationship skill and responsible decision making - and have expanded it to include a 6th component - interconnectedness / interdependence - in order to facilitate the explicit teaching of compassion, interconnectedness, cooperative learning, conflict resolution and ethics.  
+</p>
+
+<div class="box">
+<h2>Our vision</h2>
+</div>
+
+<p>
+Our theoretical framework is organized in 3 domains of <b>ME</b>, <b>YOU</b> and <b>US</b>.  At the core of our practical framework is the acquisition of a literacy of feelings and needs and its application in each of the 3 domains.  This model helps us teach and develop in a non-linear way, fundamental human skills and values. By bringing forward and teaching in a clear and efficient way these fundamental human skills, this model brings in a new consciousness in not only the individual, but also the communities, and ensures effective change such as healthier relationships and compassionate climate in schools, families, and the workplace.  
 </p>
 
 <br/><br/>
 
-<div class="quote-container">
+<div class="img-container">
+<img src="./img/ISEE-framework.png">
+</div>
+
+<!-- <div class="quote-container">
 <h3>ME Domain :</h3>
 <span class="quote">
 It is because we care for our own needs that we have the capacity to appreciate other's kindness and love
@@ -51,4 +61,4 @@ I have learned that people will forget what you said, people will forget what yo
 We cannot solve our problems with the same thinking we used when we created them.
 </span>
 <div class="author">Albert Einstein</div>
-</div>
+</div> -->

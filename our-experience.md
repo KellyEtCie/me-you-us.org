@@ -2,7 +2,6 @@
 layout: default
 lang: en
 ref: experience
-img: ./img/group.png
 ---
 
 <div class="box">
@@ -87,17 +86,15 @@ This project, created in conjunction with the Ministère de l’Éducation, de l
 
 <div class="quote-container">
 <span class="quote sublist">
-I had the immense privilege as the director of École Buissonnière, a unique primary school with a cultural and artistic vocation, to live a real revolution with my staff and students! ...</span>&nbsp;&nbsp;
+I had the immense privilege as the director of École Buissonnière, a unique primary school with a cultural and artistic vocation, to live a <b>real revolution</b> with my staff and students! ...</span>&nbsp;&nbsp;
 <button class="showhide-button"></button>
 
 <br/><br/>
 <div class="showhide">
 <span class="quote">
-This project, created in conjunction with the Ministère de l’Éducation, de l’Enseignement supérieur et de la Recherche, the Peace Grantmakers Network and the Fondation Jasmin Roy, brings together a variety of stakeholders – from educational partners to research organizations like the Institute of Social and Emotional Education and PREVNet – in an effort to create a positive and caring school climate. These organizations and their partners are devoted to the struggle against violence and bullying, and together provide school system stakeholders with training. The Grandes rencontres are training Quebec teachers, principals and school stakeholders by holding a 2-day round of meetings over 3 years throughout the 17 regions of Quebec. The training days began in the 2015-2016 school year to be completed in spring 2018. ISEE in partnership with the ministry of education of Quebec (MEES), created the content on Social Emotional Learning that is currently being delivered.
+Indeed, in 2008, when we started the “Ma Classe Zone de Paix” workshops (now called CS3), designed to equip students with the development of their socio-emotional skills, I suddenly realized that there was a real change in the attitude of the students and the entire school team. One could literally feel the climate of benevolence being established between the walls of our school, chasing away mistrust and daily tensions.  <br/><br/>
 
-Indeed, in 2012, when we started the “Ma Classe Zone de Paix” workshops (now called CS3), designed to equip students with the development of their socio-emotional skills, I suddenly realized that there was a real change in the attitude of the students and the entire school team. One could literally feel the climate of benevolence being established between the walls of our school, chasing away mistrust and daily tensions.  <br/><br/>
-
-Little by little the students felt listened to, supported and accompanied in the expression of their emotions and needs and equipped with tools to resolve their conflicts. The perspectives they were able to take when in conflict with their peers was gradually refined. They are now able to objectively describe the situation, express their emotions as they relate to an unmet need and ultimately formulate a clear request. I noticed a dramatic drop in the number of Red Tickets issued by the adults in our school, about 86% fewer detentions were being given per week! Some students and teachers have been able to take this approach into their daily lives with their families, proof that learning is well integrated!<br/><br/>
+Little by little the students felt listened to, supported and accompanied in the expression of their emotions and needs and equipped with tools to resolve their conflicts. The perspectives they were able to take when in conflict with their peers was gradually refined. They are now able to objectively describe the situation, express their emotions as they relate to an unmet need and ultimately formulate a clear request. <b>I noticed a dramatic drop in the number of Red Tickets issued by the adults in our school, about 80% fewer detentions were being given per week!</b> Some students and teachers have been able to take this approach into their daily lives with their families, proof that learning is well integrated! <br/><br/>
 
 I am convinced that over the years, thanks to the “Ma Classe Zone de Paix” program (CS3 in Englsih), we have enabled human beings to discover all the beauty and power of expressing emotions and needs, thus contributing to their evolution as the citizens of tomorrow, sensitive and articulate, who will be able to sow peace around them!
 </span>

@@ -24,27 +24,36 @@ Since 2015 Dr. Wilkie has been the Director of Social and Emotional Learning at 
 Dr. Wilkie co-developed “Ma Classe Zone de Paix”, a Non-Violent Communication-based Social and Emotional Learning school program. Since 2009 she has been teaching this program in French two days a week at École Bussonière, a primary school in Montreal. She also offers workshops and training on social emotional learning for teachers, parents, as well as school boards and maintains a private practice. Dr. Wilkie is the co-founder (with Sophie Boyer Langri) of the Institute of Social Emotional Education. She lives in Montreal with her husband and two daughters.
 </p>
 
+<br/><br/>
+
+<section class="row">
 <div class="box">
-<h2>International advisors:</h2>
+<h2>International Advisors</h2>
 </div>
+</section>
 
 <section class="row">
 <div class="half">
 <ul id="advisors">
-<li>Daniel Goleman</li>
-<li>Jinpa Langri</li>
+<li>Kimberley Schonert-Reichl</li>
 <li>Wendy Craig</li>
-<li>Shelly Hymel (or Kimberley Shonert-Richel)</li>
+<li>Shelley Hymel</li>
+<li>Patricia Jennings</li>
+<li>Thupten Jinpa Langri</li>
 </ul>
 </div>
 <div class="half">
-We are 100% aligned with HHDL vision of education:
-"Schooling the heart so children grow up with social and emotional tools to heal the world. Such an education would cultivate inner tools for self mastery, empathetic concern and living in tune with human values". From Dan Goleman’s most recent book (need the title)
+We are aligned with His Holinesss the 14th Dalai Lama's vision of education as written in Daniel Goleman's book, "A force for good":
+<br/><br/>
+<span class="quote">"Schooling the heart so children grow up with social and emotional tools to heal the world. Such an education would cultivate inner tools for self mastery, empathetic concern and living in tune with human values".</span>
 </div>
 
+
 </section>
+
+<br/><br/>
 
 <div class="box">
 <h2>Contact us</h2>
 </div>
-<a href="#">email@me-you-us.org</a>
+<a href="mailto:taravwilkie@gmail.com">taravwilkie@gmail.com</a>

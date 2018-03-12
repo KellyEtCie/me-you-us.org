@@ -12,15 +12,16 @@ Better learning. Better living.</h2>
 
 <div class="quote-container">
 <span class="quote">
-Empathy, Compassion, Gratitude, & Interconnectedness leads to... Healthy Relationships,
+Empathy, Compassion, Gratitude, & Interconnectedness leads to... <br/>
+Healthy Relationships,
 Engaged Citizenship and Embracing Shared Common Humanity
 </span>
 </div>
 
 <p>
-The Institute of Social and Emotional Education (ISEE) team has over a decade of experience teaching Social Emotional Learning (SEL) as well as essential skills such as emotional literacy, self-kindness, attention training, mindfulness, effective communication and conflict resolution.
+The Institute of Social and Emotional Education (ISEE) team has over a decade of experience teaching Social Emotional Learning (SEL) which includes essential skills such as emotional literacy, self-kindness, attention development, cooperation, effective communication and conflict resolution.
 <br/><br/>
-Our objective is to help develop healthy relationship skills and help the development of engaged citizens.
+Our objective is to help develop healthy relationship skills and engaged citizenship.
 <br/>
 We do this by cultivating compassion and connectedness through targeted application of SEL principles in the three domains of <b>ME</b>, <b>YOU</b>, and <b>US</b>.
 </p>
@@ -47,7 +48,7 @@ A focus on fostering fulfilling environments, where people achieve greater conne
 learning principles</h2>
 </div>
 
-<section class="row">
+<section class="row" id="fifths">
 <div class="fifth">
 <h4>Self-<br/>awareness</h4>
 </div>
@@ -59,6 +60,9 @@ learning principles</h2>
 </div>
 <div class="fifth">
 <h4>Relationship<br/> skills</h4>
+</div>
+<div class="fifth">
+<h4>Interconnectedness<br/>Interdependence</h4>
 </div>
 <div class="fifth">
 <h4>Responsible<br/>Decision-making</h4>

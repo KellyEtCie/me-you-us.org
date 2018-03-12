@@ -32,12 +32,40 @@ body:not(.experience):not(.about) #container {
 }
 
 footer {
-	@include gradient(to right);
-	height: 24px;
-	width: 100%;
-	// position: fixed;
-	// bottom: 0;
-	// left: 0;
+	padding-top: 80px;
+	color: $orange;
+	text-align: center;
+
+	#footer-title {
+		font-weight: 500;
+		font-size: $lg;
+	}
+	#footer-subtitle {
+		margin-top: 20px;
+		position: relative;
+		font-weight: 500;
+		font-size: $xl;
+		padding-bottom: 40px;
+		margin-bottom: 80px;
+
+		&:after {
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			margin-left: -50px;
+			width: 100px;
+			height: 1px;
+			background-color: $orange;
+			content: ' ';
+		}
+	}
+
+	#footerbar {
+		margin-top: 20px;
+		@include gradient(to right);
+		height: 24px;
+		width: 100%;
+	}
 }
 
 .box {
@@ -96,12 +124,16 @@ footer {
 	padding: 0 2%;
 }
 
+#fifths {
+	text-align: center;
+}
 .fifth {
 	text-align: center;
 	display: inline-block;
-	width: 18%;
+	width: 30%;
 	padding: 0 1%;
 	line-height: $line;
+	margin-bottom: $line*2;
 }
 .author {
 	text-align: right;
@@ -200,6 +232,13 @@ li.sublist {
 	background-size: cover;
 	background-position: center top;
 
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.img-container {
 	img {
 		width: 100%;
 		height: auto;
