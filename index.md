@@ -5,7 +5,7 @@ ref: home
 ---
 
 <div class="box">
-<div>Institute of Social and Emotional Education</div>
+<div>Institute of Social Emotional Education</div>
 <h2>Better understanding.<br/>
 Better learning. Better living.</h2>
 </div>
@@ -19,7 +19,7 @@ Engaged Citizenship and Embracing Shared Common Humanity
 </div>
 
 <p>
-The Institute of Social and Emotional Education (ISEE) team has over a decade of experience teaching Social Emotional Learning (SEL) which includes essential skills such as emotional literacy, self-kindness, attention development, cooperation, effective communication and conflict resolution.
+The Institute of Social Emotional Education (ISEE) team has over a decade of experience teaching Social Emotional Learning (SEL) which includes essential skills such as emotional literacy, self-kindness, attention development, cooperation, effective communication and conflict resolution.
 <br/><br/>
 Our objective is to help develop healthy relationship skills and engaged citizenship.
 <br/>
