@@ -1,18 +1,20 @@
 <header>
-<img class="logo mobile" src="{{ "/img/logo.svg" | prepend: site.baseurl }}"/>
-<ul>
-	{% for menu in site.tr[page.lang] %}
-		<li id="{{ menu[0] }}"><a href="{{ menu[1].url | prepend: site.baseurl }}">{{ menu[1].name }}</a></li>
-	{% endfor %}
-		<!-- <li>
+  <img class="logo mobile" src="{{ "/img/logo.jpg" | prepend: site.baseurl }}"/>
+  <ul>
+    {% for menu in site.tr[page.lang] %}
+    <li id="{{ menu[0] }}">
+      <a href="{{ menu[1].url | prepend: site.baseurl }}">{{ menu[1].name }}</a>
+    </li>
+    {% endfor %}
+    <!-- <li>
 		  {% for item in site.pages %}
 				{% if item.ref=="home" and item.lang!=page.lang %}
 					<a class="language" href="{{ item.url | prepend: site.baseurl }}">{{ item.lang }}</a>
 				{% endif %}
 			{% endfor %}
 		</li> -->
-</ul>
-<img class="logo desktop" src="{{ "/img/logo.svg" | prepend: site.baseurl }}"/>
-
-
+  </ul>
+  <img class="logo desktop" src="{{
+    "/img/logo.jpg" | prepend: site.baseurl
+  }}"/>
 </header>
