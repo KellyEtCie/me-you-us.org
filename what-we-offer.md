@@ -58,9 +58,9 @@ Coaching & Intervention</h2>
 <h2>Products/material</h2>
 </div>
 <ul class="list-products">
-<li>CS3: k-8 school curriculum to teach social emotional learning (for sale on line soon)</li>
-<li>Feelings and Needs Posters (<a href="./downloads/ISEE-posters.jpg">download now</a>)</li>
-<li>Thermometer (<a href="./downloads/ISEE-thermometer.pdf">download now</a>)</li>
+<li>CS3: k-8 school curriculum to teach social emotional learning</li>
+<li>Feelings and Needs Posters</li>
+<li>Thermometer</li>
 </ul>
 
 
