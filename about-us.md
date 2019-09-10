@@ -2,7 +2,7 @@
 layout: default
 lang: en
 ref: about
-img: ./img/portrait.png
+img: ./static/portrait.png
 ---
 
 <div class="box">
@@ -12,7 +12,6 @@ img: ./img/portrait.png
 <p>
 Sophie Langri holds a BA in Chinese Studies and anthropology from Montreal University.  After learning Tibetan in a monastery in India for a year, she studied at Cambridge University earning a Master's Degree in sociology and politics of development in 1998.  Since her return to Montreal in 1999, she has been working as the project manager for the Institute of Tibetan Classics. She has been a regular participant at the bi-annual Mind and Life conferences taking place at the residence of His Holiness the Dalai Lama in India. In 2008 Sophie started Zone de Paix school program teaching social and emotional learning. For her innovative school program she was awarded the YMCA Quebec Peace Medal in 2010. She has received extensive training in NVC (Nonviolent Communication).  She is currently being certified for the CCT program from Stanford University (Compassion Cultivation Training). Sophie is also the Co-Founder of the Institute of Social and Emotional Education (with Dr. Tara Wilkie).
 </p>
-
 
 <div class="box">
 <h2>Tara V. Wilkie, Ph.D. </h2>
@@ -47,7 +46,6 @@ We are aligned with His Holinesss the 14th Dalai Lama's vision of education as w
 <br/><br/>
 <span class="quote">"Schooling the heart so children grow up with social and emotional tools to heal the world. Such an education would cultivate inner tools for self mastery, empathetic concern and living in tune with human values".</span>
 </div>
-
 
 </section>
 

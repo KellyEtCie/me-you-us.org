@@ -1,5 +1,7 @@
 <header>
-  <img class="logo mobile" src="{{ "/img/logo.jpg" | prepend: site.baseurl }}"/>
+  <img class="logo mobile" src="{{
+    "/static/logo.jpg" | prepend: site.baseurl
+  }}"/>
   <ul>
     {% for menu in site.tr[page.lang] %}
     <li id="{{ menu[0] }}">
@@ -15,6 +17,6 @@
 		</li> -->
   </ul>
   <img class="logo desktop" src="{{
-    "/img/logo.jpg" | prepend: site.baseurl
+    "/static/logo.jpg" | prepend: site.baseurl
   }}"/>
 </header>

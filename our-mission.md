@@ -36,7 +36,7 @@ Our theoretical framework is organized in 3 domains of <b>ME</b>, <b>YOU</b> and
 <br/><br/>
 
 <div class="img-container">
-<img src="./img/ISEE-framework.png">
+<img src="./static/ISEE-framework.png">
 </div>
 
 <!-- <div class="quote-container">

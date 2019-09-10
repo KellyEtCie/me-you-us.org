@@ -1,292 +1,294 @@
 //// GENERAL STYLES
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
 
 // Layout elements
 body {
-	font-family: 'Raleway', sans-serif;
-	background-image: url('./img/background.svg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+  background-image: url("./static/background.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 #outer {
-	text-align: center;
+  text-align: center;
 }
 
 #container {
-	display: inline-block;
-	width: 100%;
-	max-width: 960px;
-	padding: 80px 0;
-	text-align: left;
+  display: inline-block;
+  width: 100%;
+  max-width: 960px;
+  padding: 80px 0;
+  text-align: left;
 }
 body:not(.experience):not(.about) #container {
-	border-top: 1px solid $orange;
+  border-top: 1px solid $orange;
 }
 
 footer {
-	padding-top: 80px;
-	color: $orange;
-	text-align: center;
+  padding-top: 80px;
+  color: $orange;
+  text-align: center;
 
-	#footer-title {
-		font-weight: 500;
-		font-size: $lg;
-	}
-	#footer-subtitle {
-		margin-top: 20px;
-		position: relative;
-		font-weight: 500;
-		font-size: $xl;
-		padding-bottom: 40px;
-		margin-bottom: 80px;
+  #footer-title {
+    font-weight: 500;
+    font-size: $lg;
+  }
+  #footer-subtitle {
+    margin-top: 20px;
+    position: relative;
+    font-weight: 500;
+    font-size: $xl;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
 
-		&:after {
-			position: absolute;
-			top: 100%;
-			left: 50%;
-			margin-left: -50px;
-			width: 100px;
-			height: 1px;
-			background-color: $orange;
-			content: ' ';
-		}
-	}
+    &:after {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -50px;
+      width: 100px;
+      height: 1px;
+      background-color: $orange;
+      content: " ";
+    }
+  }
 
-	#footerbar {
-		margin-top: 20px;
-		@include gradient(to right);
-		height: 24px;
-		width: 100%;
-	}
+  #footerbar {
+    margin-top: 20px;
+    @include gradient(to right);
+    height: 24px;
+    width: 100%;
+  }
 }
 
 .box {
-	position: relative;
-	display: inline-block;
-	color: $orange;
-	font-size: $xl;
-	padding-bottom: 40px;
-	margin: 40px 0 80px;
+  position: relative;
+  display: inline-block;
+  color: $orange;
+  font-size: $xl;
+  padding-bottom: 40px;
+  margin: 40px 0 80px;
 
-	&::after {
-		position: absolute;
-		right: 0;
-		top: 100%;
-		width: 100px;
-		height: 5px;
-		background-color: $orange;
-		content: ' ';
-	}
+  &::after {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 100px;
+    height: 5px;
+    background-color: $orange;
+    content: " ";
+  }
 }
 .quote {
-	color: $orange;
-	border-bottom: 1px solid;
-	line-height: 1.5em;
-	font-weight: 500;
-	font-size: $lg;
+  color: $orange;
+  border-bottom: 1px solid;
+  line-height: 1.5em;
+  font-weight: 500;
+  font-size: $lg;
 }
 .quote-container {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .half {
-	display: inline-block;
-	width: 49%;
-	vertical-align: top;
-	line-height: $line;
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  line-height: $line;
 }
 .half:nth-child(2) {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 .third {
-	width: 31%;
-	display: inline-block;
-	vertical-align: top;
-	margin-bottom: 40px;
-	line-height: $line;
-	text-align: center;
+  width: 31%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 40px;
+  line-height: $line;
+  text-align: center;
 
-	h3 {
-		margin-bottom: 20px;
-	}
+  h3 {
+    margin-bottom: 20px;
+  }
 }
 .third:nth-of-type(3n-1) {
-	width: 36%;
-	padding: 0 2%;
+  width: 36%;
+  padding: 0 2%;
 }
 
 #fifths {
-	text-align: center;
+  text-align: center;
 }
 .fifth {
-	text-align: center;
-	display: inline-block;
-	width: 30%;
-	padding: 0 1%;
-	line-height: $line;
-	margin-bottom: $line*2;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  padding: 0 1%;
+  line-height: $line;
+  margin-bottom: $line * 2;
 }
 .author {
-	text-align: right;
-	font-size: $lg;
-	font-weight: 500;
-	margin-bottom: 40px;
+  text-align: right;
+  font-size: $lg;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
 li.sublist {
-	position: relative;
-	transition: color 1s;
-	overflow: visible;
+  position: relative;
+  transition: color 1s;
+  overflow: visible;
 
-	&.clicked {
-		color: $orange;
-	}
+  &.clicked {
+    color: $orange;
+  }
 
-	.showhide-button {
-		position: relative;
-		border: 0;
-		background: none;
-		margin-left: 8px;
-		margin-top: -4px;
-		display: inline-block;
-		vertical-align: middle;
+  .showhide-button {
+    position: relative;
+    border: 0;
+    background: none;
+    margin-left: 8px;
+    margin-top: -4px;
+    display: inline-block;
+    vertical-align: middle;
 
-		width: 15px;
-		height: 15px;
+    width: 15px;
+    height: 15px;
 
-		outline: none;
+    outline: none;
 
-		&::before {
-			border: solid transparent;
-			content: " ";
-			height: 0;
-			width: 0;
-			left: 50%;
-			margin-left: -8px;
-			position: absolute;
-			border-color: none;
-			border-top-color: $orange;
-			border-width: 8px;
-			margin-top: -4px;
-		}
+    &::before {
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      left: 50%;
+      margin-left: -8px;
+      position: absolute;
+      border-color: none;
+      border-top-color: $orange;
+      border-width: 8px;
+      margin-top: -4px;
+    }
 
-		&.clicked::before {
-			border: solid transparent;
-			content: " ";
-			height: 0;
-			width: 0;
-			left: 50%;
-			margin-left: -8px;
-			position: absolute;
-			border-color: none;
-			border-bottom-color: $orange;
-			border-width: 8px;
-			margin-top: -12px;
-			// margin-top: -5px;
-		}
+    &.clicked::before {
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      left: 50%;
+      margin-left: -8px;
+      position: absolute;
+      border-color: none;
+      border-bottom-color: $orange;
+      border-width: 8px;
+      margin-top: -12px;
+      // margin-top: -5px;
+    }
 
-		&:hover::before {
-			border-top-color: $red;
-		}
-		&.clicked:hover::before {
-			border-top-color: transparent;
-			border-bottom-color: $red;
-		}
-	}
+    &:hover::before {
+      border-top-color: $red;
+    }
+    &.clicked:hover::before {
+      border-top-color: transparent;
+      border-bottom-color: $red;
+    }
+  }
 
-	.showhide {
-		max-height: 0;
-		overflow: hidden;
-		opacity: 0;
-		transition: all 1s;
-		color: black;
-	}
-	.showhide.revealed {
-		color: black;
-		max-height: 500px;
-		opacity: 1;
-		// transition: max-height 1s, opacity .8s;
-		border-left: 1px solid $orange;
-		padding-left: 20px;
-		margin-left: -35px;
-		padding-top: 50px;
-		margin-top: -30px;
-		margin-bottom: 25px;
-	}
-
+  .showhide {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 1s;
+    color: black;
+  }
+  .showhide.revealed {
+    color: black;
+    max-height: 500px;
+    opacity: 1;
+    // transition: max-height 1s, opacity .8s;
+    border-left: 1px solid $orange;
+    padding-left: 20px;
+    margin-left: -35px;
+    padding-top: 50px;
+    margin-top: -30px;
+    margin-bottom: 25px;
+  }
 }
 
 #splash-photo {
-	width: 100%;
-	max-height: 740px;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center top;
+  width: 100%;
+  max-height: 740px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center top;
 
-	img {
-		width: 100%;
-		height: auto;
-	}
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .img-container {
-	img {
-		width: 100%;
-		height: auto;
-	}
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 // Text elements
-h1, h2, h3, h4 {
-	text-transform: uppercase;
-	font-weight: 800;
-	color: $orange;
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: $orange;
 }
 h2 {
-	font-size: $xl;
+  font-size: $xl;
 }
 h3 {
-	font-size: $lg;
+  font-size: $lg;
 }
 
 a {
-	text-decoration: none;
-	color: black;
-	font-weight: 500;
-	&:hover, &:focus, &.selected {
-		color: $red;
-		border-bottom: 1px solid;
-	}
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  &:hover,
+  &:focus,
+  &.selected {
+    color: $red;
+    border-bottom: 1px solid;
+  }
 }
 
 p {
-	line-height: $line;
-	column-count: 2;
-	column-gap: 40px;
-	margin-bottom: 40px;
-	text-align: justify;
+  line-height: $line;
+  column-count: 2;
+  column-gap: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
 }
 
 b {
-	font-weight: 800;
-	color: $orange;
+  font-weight: 800;
+  color: $orange;
 }
 i {
-	font-style: italic;
+  font-style: italic;
 }
 
 ul {
-
 }
 li {
-
 }
