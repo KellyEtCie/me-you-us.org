@@ -44,6 +44,9 @@ tr:
     about:
       name: "About us"
       url: "/about-us.html"
+    news:
+      name: "News and events"
+      url: "/news-and-events.html"
     # contact:
     #   name: "Contact us"
     #   url: "/contact-us.html"
@@ -63,6 +66,9 @@ tr:
     about:
       name: "À propos"
       url: "/a-propos/"
+    news:
+      name: "Nouvelles"
+      url: "/nouvelles/"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
