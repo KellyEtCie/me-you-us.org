@@ -53,7 +53,7 @@ More information about the two-day workshop.
 To register contact : Kelly Carrier at <a href="mailto:kcarrier@trafalgar.qc.ca">kcarrier@trafalgar.qc.ca</a>.
 
 <div class="box">
-<h2>Kindness Week/Semaine de la Bienveillance</h2>
+<h2>Kindness Week / Semaine de la Bienveillance</h2>
 </div>
 
 <a href="./static/events/iese-kindnessweek-affiche-11x17.jpg">Download poster</a>
@@ -63,7 +63,7 @@ To register contact : Kelly Carrier at <a href="mailto:kcarrier@trafalgar.qc.ca
 <a href="./static/events/iese-kindnessweek-presentation-FR.pdf">Télécharger la présentation en Français</a>
 
 <div class="box">
-<h2>Smile Boomerang/Epidemie des Sourires</h2>
+<h2>Smile Boomerang / Epidemie des Sourires</h2>
 </div>
 
 <a href="./static/events/iese-smile_boomerang-affiche-11x17-v3.jpg">Download poster</a>
