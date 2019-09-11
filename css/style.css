@@ -282,7 +282,8 @@ li.sublist .showhide.revealed {
   height: auto;
 }
 
-.img-container img {
+.img-container img,
+.poster img {
   width: 100%;
   height: auto;
 }
@@ -515,6 +516,10 @@ body.about #advisors {
   color: #ec6f19;
   font-weight: 500;
   font-size: 18px;
+}
+
+.news .poster {
+  margin-bottom: 40px;
 }
 
 @media all and (max-width: 1080px) {
