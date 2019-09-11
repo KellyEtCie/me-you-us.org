@@ -1,85 +1,20 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-body.offer #teaching-subtitle,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, body.offer #teaching-subtitle, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -87,47 +22,44 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
-ol,
-ul {
+
+ol, ul {
   list-style: none;
 }
-blockquote,
-q {
+
+blockquote, q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+
+blockquote:before, blockquote:after,
+q:before, q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 * {
   box-sizing: border-box;
 }
+
 .hidden {
   display: none;
 }
+
 body {
   font-family: "Raleway", sans-serif;
   background-image: url("./static/background.svg");
@@ -135,9 +67,11 @@ body {
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
+
 #outer {
   text-align: center;
 }
+
 #container {
   display: inline-block;
   width: 100%;
@@ -145,9 +79,11 @@ body {
   padding: 80px 0;
   text-align: left;
 }
+
 body:not(.experience):not(.about) #container {
   border-top: 1px solid #ec6f19;
 }
+
 footer {
   padding-top: 80px;
   color: #ec6f19;
@@ -183,6 +119,7 @@ footer #footerbar {
   height: 24px;
   width: 100%;
 }
+
 .box {
   position: relative;
   display: inline-block;
@@ -200,6 +137,7 @@ footer #footerbar {
   background-color: #ec6f19;
   content: " ";
 }
+
 .quote {
   color: #ec6f19;
   border-bottom: 1px solid;
@@ -207,18 +145,22 @@ footer #footerbar {
   font-weight: 500;
   font-size: 24px;
 }
+
 .quote-container {
   margin-bottom: 40px;
 }
+
 .half {
   display: inline-block;
   width: 49%;
   vertical-align: top;
   line-height: 2em;
 }
+
 .half:nth-child(2) {
   padding-left: 20px;
 }
+
 .third {
   width: 31%;
   display: inline-block;
@@ -230,13 +172,16 @@ footer #footerbar {
 .third h3 {
   margin-bottom: 20px;
 }
+
 .third:nth-of-type(3n-1) {
   width: 36%;
   padding: 0 2%;
 }
+
 #fifths {
   text-align: center;
 }
+
 .fifth {
   text-align: center;
   display: inline-block;
@@ -245,12 +190,14 @@ footer #footerbar {
   line-height: 2em;
   margin-bottom: 4em;
 }
+
 .author {
   text-align: right;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 40px;
 }
+
 li.sublist {
   position: relative;
   transition: color 1s;
@@ -322,6 +269,7 @@ li.sublist .showhide.revealed {
   margin-top: -30px;
   margin-bottom: 25px;
 }
+
 #splash-photo {
   width: 100%;
   max-height: 740px;
@@ -333,10 +281,12 @@ li.sublist .showhide.revealed {
   width: 100%;
   height: auto;
 }
+
 .img-container img {
   width: 100%;
   height: auto;
 }
+
 h1,
 h2,
 h3,
@@ -346,23 +296,25 @@ body.offer #teaching-subtitle {
   font-weight: 800;
   color: #ec6f19;
 }
+
 h2 {
   font-size: 32px;
 }
+
 h3 {
   font-size: 24px;
 }
+
 a {
   text-decoration: none;
   color: black;
   font-weight: 500;
 }
-a:hover,
-a:focus,
-a.selected {
+a:hover, a:focus, a.selected {
   color: #e61e25;
   border-bottom: 1px solid;
 }
+
 p {
   line-height: 2em;
   column-count: 2;
@@ -370,13 +322,20 @@ p {
   margin-bottom: 40px;
   text-align: justify;
 }
+
+p.one-col {
+  column-count: 1;
+}
+
 b {
   font-weight: 800;
   color: #ec6f19;
 }
+
 i {
   font-style: italic;
 }
+
 header {
   height: 200px;
   padding: 50px;
@@ -407,6 +366,7 @@ header .logo.desktop {
 header .logo.mobile {
   display: none;
 }
+
 body.offer #container > ul {
   margin-bottom: 80px;
 }
@@ -432,15 +392,13 @@ body.offer .list-offer li:nth-child(3n-1) {
   margin-left: 8%;
   margin-right: 8%;
 }
-body.offer .list-workshop li,
-body.offer .list-products li {
+body.offer .list-workshop li, body.offer .list-products li {
   font-size: 18px;
   line-height: 2em;
   list-style-type: disc;
   list-style-position: outside;
 }
-body.offer .list-workshop ul,
-body.offer .list-products ul {
+body.offer .list-workshop ul, body.offer .list-products ul {
   margin-left: 40px;
 }
 body.offer .event-info {
@@ -459,8 +417,7 @@ body.offer #click-to-view {
 body.offer h3 {
   margin-bottom: 20px;
 }
-body.offer h4,
-body.offer #teaching-subtitle {
+body.offer h4, body.offer #teaching-subtitle {
   margin-top: -15px;
   margin-bottom: 20px;
 }
@@ -475,6 +432,7 @@ body.offer .workshop-description {
 body.offer .workshop-description a {
   border-bottom: 1px solid;
 }
+
 body.experience .school {
   list-style-type: disc;
 }
@@ -539,6 +497,7 @@ body.experience .quote-container .showhide {
 body.experience .quote-container .showhide.revealed {
   max-height: 5000px;
 }
+
 body.about {
   background: none;
 }
@@ -553,16 +512,19 @@ body.about #advisors {
   font-weight: 500;
   font-size: 18px;
 }
+
 @media all and (max-width: 1080px) {
   body {
     background: none;
   }
+
   #outer {
     text-align: center;
     background-image: url("./static/background.svg");
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
+
   header {
     height: auto;
     margin-bottom: 20px;
@@ -581,13 +543,16 @@ body.about #advisors {
   header .logo.mobile {
     display: inline-block;
   }
+
   ul {
     margin-left: 10px;
   }
+
   #container {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .half {
     padding: 0 !important;
   }
@@ -599,35 +564,44 @@ body.about #advisors {
   p {
     column-count: 1;
   }
+
   .quote {
     font-size: 18px;
   }
+
   .author {
     font-size: 18px;
   }
+
   .fifth,
-  .quarter,
-  .half,
-  .third {
+.quarter,
+.half,
+.third {
     display: block;
     width: 100% !important;
   }
+
   .fifth {
     margin-bottom: 40px;
   }
+
   .list-offer li {
     display: block;
     width: 100% !important;
     margin: 40px 0 !important;
   }
+
   body.experience .school li.sublist .showhide {
     column-count: 1;
   }
+
   body.experience .school li.sublist .showhide.revealed {
     max-height: 5000px;
   }
+
   body.experience .school .box {
     display: block;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
