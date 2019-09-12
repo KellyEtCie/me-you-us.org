@@ -14,14 +14,12 @@ Check here for ISEE institutes, retreats, workshops and downloadable fun! We pro
 </span>
 </div>
 
-<p class="one-col">Join us in Montreal <b>September 17, 2019</b> at Trafalgar School for the first lecture in the 2019-20 Smart Parenting series. This series is open to the public.</p>
-
 <div class="box">
 <h2>Cultivating Compassion</h2>
 In ourselves, and the communities where we live and work
 </div>
 
-What is compassion and how do we cultivate it in ourselves, and in the communities where we live and work? Join us to learn some strategies that you can begin to use immediately. When you choose to practice compassion—not just talk about it and think about it but actually commit to it—your relationship with yourself and others will change, your anxiety and depression will decrease, and you will simply feel better. This public lecture will be lead by Dr. Tara V. Wilkie, Ph.D, psychologist and co-founder of the Institute of Social Emotional Education.
+Join us in Montreal September 17, 2019 at Trafalgar School for the first lecture in the 2019-20 Smart Parenting series. This series is open to the public.<br/><br/> What is compassion and how do we cultivate it in ourselves, and in the communities where we live and work? Join us to learn some strategies that you can begin to use immediately. When you choose to practice compassion—not just talk about it and think about it but actually commit to it—your relationship with yourself and others will change, your anxiety and depression will decrease, and you will simply feel better. This public lecture will be lead by Dr. Tara V. Wilkie, Ph.D, psychologist and co-founder of the Institute of Social Emotional Education.
 
 <div class="poster">
 <img src="./static/events/IESE_cultivatingcompassion.png">
