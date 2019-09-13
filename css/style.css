@@ -341,6 +341,18 @@ i {
   font-style: italic;
 }
 
+.poster {
+  margin-bottom: 40px;
+}
+
+.poster-excerpt {
+  margin-bottom: 40px;
+  padding-top: 40%;
+  width: 100%;
+  background-size: cover;
+  background-position: center 55%;
+}
+
 header {
   height: 200px;
   padding: 50px;
@@ -516,10 +528,6 @@ body.about #advisors {
   color: #ec6f19;
   font-weight: 500;
   font-size: 18px;
-}
-
-.news .poster {
-  margin-bottom: 40px;
 }
 
 @media all and (max-width: 1080px) {

@@ -301,3 +301,16 @@ ul {
 }
 li {
 }
+
+// Image handling
+.poster {
+  margin-bottom: 40px;
+}
+
+.poster-excerpt {
+  margin-bottom: 40px;
+  padding-top: 40%;
+  width: 100%;
+  background-size: cover;
+  background-position: center 55%;
+}
