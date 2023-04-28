@@ -24,12 +24,17 @@ In ourselves, and the communities where we live and work
 <h3>1. A Weatherhead East Asian Institute & Columbia University Event </h3>
 New approaches in Himalayan Education: Learning in Ladakh
 </div>
-25-28 April 2023
+<p>
+25-28 April 2023 
+</p>
+<p>
 Panelist: Sophie Langri
+</p>
 <a href="https://www.newhimalayaned.org/ ">newhimalayaned.org</a>
 
 <div class="poster-half">
-<img src="./static/events/Screenshot-2023-04-27-100047.jpg">
+<a href="https://www.newhimalayaned.org/ "><img src="./static/events/Screenshot-2023-04-27-100047.jpg" alt="a young student from Ladakh"></a>
+
 </div>
 
 
